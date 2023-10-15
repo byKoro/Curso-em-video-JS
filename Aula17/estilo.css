@@ -40,3 +40,7 @@ footer {
     margin: 20px;
 }
 
+select {
+    width: 200px;
+}
+
