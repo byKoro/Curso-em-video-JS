@@ -68,16 +68,17 @@ function adicionar() {
         }else {
             valoresArray.push(inputAdicionarValores.value)
             addValorSelect(inputAdicionarValores.value)
-            
-            valorAdicionado = false
-            
+            resultadosDiv.innerHTML = ''
+            valorAdicionado = false      
         }
     
         
     }else {
         alert('valores inválidos')
     }
-    resultadosDiv.innerHTML = ''
+    inputAdicionarValores.value = ''
+    inputAdicionarValores.focus()
+    
     return valoresArray
     
 }
