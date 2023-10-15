@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de Número</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de Números</h1>
+    </header>
+    <main>
+        <section class="layout">
+            <div id="inputsvalores">
+                <div>
+                    Número (entre 01 a 100)<input type="number" id="adicionarvalores">
+                    <button id="adicionar" onclick="adicionar()">Adicionar</button>
+                </div>
+                <div id="validarvalores">
+                    <select id="select"></select>
+                    <button id="validar" onclick="validar()">Analisar</button>
+                    <div id="resultados"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        ©byKoro
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
